@@ -7,27 +7,24 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "За несколько минут мы превратили данные в практические выводы. Процесс был бесшовным и невероятно эффективным!",
-      name: "Анна Петрова",
-      company: "Сооснователь, TechStart",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png",
+        "Раньше на начисления уходил целый день каждый месяц. Теперь система всё делает сама — я только проверяю итог. Это просто другой уровень работы.",
+      name: "Елена Соколова",
+      company: "Председатель, СНТ «Дубрава», Подмосковье",
+      image: "/professional-woman-avatar-with-short-brown-hair-an.jpg",
     },
     {
       quote:
-        "Бриллиант революционизировал работу с индивидуальными контрактами. Автоматизация экономит нам часы каждую неделю и полностью исключает ошибки.",
-      name: "Сергей Иванов",
-      company: "Директор по операциям, DataFlow",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2010_54_18%20AM-nbiecp92QNdTudmCrHr97uekrIPzCP.png",
+        "Жители перестали звонить с вопросами «сколько я должен». Теперь у каждого есть личный кабинет со всей историей платежей. Количество конфликтов снизилось в разы.",
+      name: "Андрей Волков",
+      company: "Управляющий, КП «Лесная сказка»",
+      image: "/professional-man-avatar-with-beard-and-glasses-loo.jpg",
     },
     {
       quote:
-        "Автоматизация биллинга — это настоящий прорыв. То, что раньше занимало у команды дни, теперь происходит автоматически с идеальной точностью.",
-      name: "Мария Козлова",
-      company: "Финансовый директор, InnovateCorp",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_01_05%20AM-TBOe92trRxKn4G5So1m9D2h7LRH4PG.png",
+        "Собираемость взносов выросла с 68% до 91% за три месяца — только за счёт автоматических напоминаний. Цифры говорят сами за себя.",
+      name: "Ирина Новикова",
+      company: "Директор, УК «Зелёный берег»",
+      image: "/professional-person-avatar-with-curly-hair-and-war.jpg",
     },
   ];
 

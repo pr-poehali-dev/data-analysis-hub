@@ -9,12 +9,12 @@ export default function PricingSection() {
       annually: 0,
     },
     professional: {
-      monthly: 1990,
-      annually: 1590,
+      monthly: 4990,
+      annually: 3990,
     },
     enterprise: {
-      monthly: 9990,
-      annually: 7990,
+      monthly: 14990,
+      annually: 11990,
     },
   };
 
@@ -120,9 +120,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12 bg-[rgba(255,255,255,0)]">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Стартовый</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Пробный</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Идеально для частных лиц и небольших команд, которые только начинают.
+                    Для небольших СНТ до 30 участков. Попробуйте бесплатно.
                   </div>
                 </div>
 
@@ -167,11 +167,11 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "До 3 проектов",
-                  "Базовые инструменты документации",
-                  "Поддержка сообщества",
-                  "Стандартные шаблоны",
-                  "Базовая аналитика",
+                  "До 30 участков",
+                  "Автоматические начисления",
+                  "Личные кабинеты жителей",
+                  "Базовая отчётность",
+                  "Email-поддержка",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -197,9 +197,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-[#37322F] border border-[rgba(55,50,47,0.12)] overflow-hidden flex flex-col justify-start items-start gap-12">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Профессиональный</div>
+                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Стандарт</div>
                   <div className="w-full max-w-[242px] text-[#B2AEA9] text-sm font-normal leading-5 font-sans">
-                    Расширенные возможности для растущих команд и бизнеса.
+                    Для посёлков до 200 участков. Полная автоматизация.
                   </div>
                 </div>
 
@@ -244,14 +244,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Безлимитные проекты",
-                  "Расширенные инструменты документации",
+                  "До 200 участков",
+                  "Онлайн-оплата (СБП, карты)",
+                  "Автоматические напоминания",
+                  "Расширенная аналитика",
+                  "Интеграция с 1С",
+                  "Экспорт в Excel/PDF",
                   "Приоритетная поддержка",
-                  "Пользовательские шаблоны",
-                  "Продвинутая аналитика",
-                  "Командное сотрудничество",
-                  "Доступ к API",
-                  "Пользовательские интеграции",
+                  "Настраиваемые тарифы",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -275,9 +275,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-white border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Корпоративный</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Управляющая компания</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Полное решение для крупных организаций и предприятий.
+                    Для УК с несколькими объектами и штатом сотрудников.
                   </div>
                 </div>
 
@@ -322,14 +322,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Все из Профессионального",
+                  "Неограниченное число объектов",
+                  "Мультиобъектный дашборд",
+                  "Роли сотрудников (бухгалтер, диспетчер)",
                   "Персональный менеджер",
-                  "Поддержка 24/7 по телефону",
+                  "Поддержка 24/7",
                   "Индивидуальный онбординг",
-                  "Расширенные функции безопасности",
-                  "Интеграция SSO",
-                  "Индивидуальные контракты",
-                  "White-label решения",
+                  "White-label для вашего бренда",
+                  "Индивидуальный договор",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">

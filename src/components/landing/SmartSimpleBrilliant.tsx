@@ -67,7 +67,7 @@ const SmartSimpleBrilliant: FC<SmartSimpleBrilliantProps> = ({
                     </span>
                   </div>
                   <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "9px", color: "#92400E" }}>
-                    Встреча с Анной
+                    Начисления: взносы
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const SmartSimpleBrilliant: FC<SmartSimpleBrilliantProps> = ({
                     </span>
                   </div>
                   <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "9px", color: "#0C4A6E" }}>
-                    Обзор концепт-дизайна II
+                    Оплата: уч. 14 — 4500₽
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const SmartSimpleBrilliant: FC<SmartSimpleBrilliantProps> = ({
                     </span>
                   </div>
                   <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "9px", color: "#064E3B" }}>
-                    Вебинар: Figma ...
+                    Долг: уч. 7 — 9000₽
                   </div>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const SmartSimpleBrilliant: FC<SmartSimpleBrilliantProps> = ({
                     </span>
                   </div>
                   <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "9px", color: "#581C87" }}>
-                    Презентация онбординга
+                    Отчёт за апрель
                   </div>
                 </div>
               </div>
@@ -181,7 +181,7 @@ const SmartSimpleBrilliant: FC<SmartSimpleBrilliantProps> = ({
                     </span>
                   </div>
                   <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "9px", color: "#BE123C" }}>
-                    Корпоратив
+                    Квитанция: уч. 23
                   </div>
                 </div>
               </div>
@@ -206,7 +206,7 @@ const SmartSimpleBrilliant: FC<SmartSimpleBrilliantProps> = ({
                     </span>
                   </div>
                   <div style={{ fontFamily: "Inter, sans-serif", fontWeight: 600, fontSize: "9px", color: "#581C87" }}>
-                    Обед с новым сотрудником!
+                    Собираемость: 89%
                   </div>
                 </div>
               </div>
